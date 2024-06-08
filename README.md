@@ -1,5 +1,10 @@
 PATCHNOTES:
-    https://github.com/Khitboksy/NONHORST-PATCHNOTES/tree/main
+    
+    Live Patch https://github.com/Khitboksy/NONHORST-PATCHNOTES/blob/main/PN_v0.1.8
+    All Patches https://github.com/Khitboksy/NONHORST-PATCHNOTES
+
+
+-
 
 
 CREDITS
