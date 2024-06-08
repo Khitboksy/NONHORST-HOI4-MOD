@@ -1,0 +1,11 @@
+﻿l_english:
+ ########
+ ##IIBS##
+ ########
+ 
+ #Dynamic Modifiers
+ IIBS_infrastructure_1:0 "Level 1 Infrastructure"
+ IIBS_infrastructure_2:0 "Level 2 Infrastructure"
+ IIBS_infrastructure_3:0 "Level 3 Infrastructure"
+ IIBS_infrastructure_4:0 "Level 4 Infrastructure"
+ IIBS_infrastructure_5:0 "Level 5 Infrastructure"

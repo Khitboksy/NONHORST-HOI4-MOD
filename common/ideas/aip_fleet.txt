@@ -1,0 +1,138 @@
+ideas = {
+
+	aip_fleet = { 
+
+		law = yes
+
+		small_planes = {
+		    available = {
+			}
+
+			equipment_bonus = {
+				small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+				small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.25	
+				}
+				small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+				cv_small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+				cv_small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+				cv_small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+
+			modifier = {
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    OR = {
+						has_government = communism
+						has_government = democratic
+					}
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		medium_planes = {
+			available = {
+			}
+
+			equipment_bonus = {
+				medium_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				medium_plane_fighter_airframe = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				medium_plane_scout_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+			}
+
+			modifier = {
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+				    OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		large_planes = {
+			available = {
+			}
+			
+			equipment_bonus = {
+				large_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+				large_plane_maritime_patrol_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+
+			modifier = {
+			}
+			
+			ai_will_do = {
+   				factor = 10
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		support_planes = {
+			available = {
+			}
+
+			equipment_bonus = {
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+
+			modifier = {
+			}
+			
+			ai_will_do = {
+   				factor = 1
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

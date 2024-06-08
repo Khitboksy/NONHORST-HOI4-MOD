@@ -1,0 +1,142 @@
+ideas = {
+
+	aip_air_production = { 
+	
+		law = yes
+	
+		air_production_normal = {
+		    available = {
+			}
+			
+			modifier = {
+				air_fuel_consumption_factor = -0.05
+				air_accidents_factor = -0.1
+			}
+			
+			ai_will_do = {
+				factor = 20
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		air_production_cheap = {
+			available = {
+			}
+			
+			modifier = {
+			    air_agility_factor = -0.2
+				air_maximum_speed_factor = -0.2
+				air_fuel_consumption_factor = -0.33
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+				    OR = {
+						has_government = communism
+						has_government = democratic
+					}
+					factor = 40
+				}
+			}
+
+			cancel_if_invalid = yes
+		}
+		
+		air_production_quality = {
+			available = {	
+			}
+			
+			modifier = {
+				air_agility_factor = 0.10
+				air_maximum_speed_factor = 0.05
+				air_fuel_consumption_factor = 0.2
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+				    OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		air_production_no = {
+			available = {
+				NOT = { has_idea = navy_production_no }
+			}
+
+			equipment_bonus = {
+				small_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				cv_small_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				cv_small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				cv_small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				medium_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				medium_plane_fighter_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				medium_plane_scout_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				large_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+				large_plane_maritime_patrol_plane_airframe = {
+					instant = yes
+					build_cost_ic = 1
+				}
+			}
+			modifier = {
+				political_power_factor = 0.15
+				industrial_capacity_factory = 0.1
+			}
+			
+			ai_will_do = {
+   				factor = 0
+   				modifier = {
+				    has_deployed_air_force_size = {
+						size < 1
+					}
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+	}
+}

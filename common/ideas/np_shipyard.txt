@@ -1,0 +1,178 @@
+ideas = {
+
+	np_shipyard = { 
+	
+		law = yes
+		
+		shipyard_submarine = {
+		    available = {
+			}
+
+			equipment_bonus = {
+				submarine = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+   				factor = 20
+				modifier = {
+					OR = { 
+						has_government = fascism
+						has_government = communism
+					}
+					factor = 40
+				}
+			}	
+
+			cancel_if_invalid = yes
+		}
+		
+		#shipyard_destroyer = {
+		#	available = {
+		#	}
+		#
+		#	equipment_bonus = {
+		#		destroyer = {
+		#			instant = yes
+		#			build_cost_ic = -0.25
+		#		}
+		#	}
+		#
+		#	modifier = {
+		#	    
+		#	}
+		#	
+		#	ai_will_do = {
+   		#		factor = 20
+   		#	}
+		#
+		#	cancel_if_invalid = yes
+		#}
+		
+		shipyard_screen_ship = {
+			available = {
+			}
+
+			equipment_bonus = {
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+
+			modifier = {
+
+			}
+
+			ai_will_do = {
+				factor = 20
+			}
+
+			cancel_if_invalid = yes
+		}
+		
+		shipyard_carrier = {
+			available = {
+			}
+
+			equipment_bonus = {
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+			}
+
+			modifier = {
+			}
+			
+			ai_will_do = {
+				factor = 20
+				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+			}
+
+			cancel_if_invalid = yes
+		}
+
+		#shipyard_heavy_cruiser = {
+		#	available = {
+		#	}
+		#
+		#	equipment_bonus = {
+		#		heavy_cruiser = {
+		#			instant = yes
+		#			build_cost_ic = -0.20
+		#		}
+		#	}
+		#
+		#	modifier = {
+		#
+		#	}
+		#	
+		#	ai_will_do = {
+   		#		factor = 20
+   		#	}
+		#
+		#	cancel_if_invalid = yes
+		#}
+
+		shipyard_capital_ship = {
+			available = {
+			}
+
+			equipment_bonus = {
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+			}
+			
+			modifier = {
+
+			}
+			
+			ai_will_do = {
+				factor = 20
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		shipyard_support_ships = {
+			available = {
+			}
+
+			equipment_bonus = {
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+				floating_harbor_equipment = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+			modifier = {
+
+			}
+			
+			ai_will_do = {
+				factor = 20
+				modifier = {
+					has_government = neutrality
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

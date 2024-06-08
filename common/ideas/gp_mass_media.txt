@@ -1,0 +1,141 @@
+ideas = {
+
+	gp_mass_media = { 
+	
+		law = yes
+		
+		mass_media_propaganda = {
+			
+			available = {
+				NOT = { has_government = democratic }
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+				war_support_factor = 0.1
+				stability_factor = 0.1
+				drift_defence_factor = 0.5
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					OR = {
+					has_government = communism
+					has_government = fascism
+				    }
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		mass_media_censorship = {
+
+			available = {
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				war_support_factor = 0.05
+				stability_factor = -0.05
+				drift_defence_factor = 0.3
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					OR = {
+					has_government = communism
+					has_government = fascism
+					has_government = neutrality
+				    }
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		mass_media_free = {
+		
+			available = {
+				NOT = {
+				    OR = {
+					has_government = communism
+					has_government = fascism
+				    }
+				}
+			}
+			
+			modifier = {
+				war_support_factor = -0.05
+				stability_factor = 0.05
+				political_power_factor = 0.15
+				drift_defence_factor = -0.5
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		mass_media_control = {
+		
+			available = {
+				AND = {
+					has_war_support > 0.4
+					has_stability > 0.5
+				}
+				IF = {
+					num_subjects > 0
+				}
+			}
+			
+			modifier = {
+				subjects_autonomy_gain = -0.3
+				political_power_factor = -0.1
+			}
+
+			ai_will_do = {
+				factor = 0
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		mass_media_liberty = {
+		
+			available = {
+				AND = {
+					has_war_support > 0.5
+					has_stability > 0.6
+				}
+				IF = {
+					is_subject = yes
+				}
+			}
+			
+			modifier = {
+				autonomy_gain = 0.3
+				political_power_factor = -0.1
+			}
+
+			ai_will_do = {
+				factor = 0
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+	}
+}

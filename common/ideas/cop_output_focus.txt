@@ -1,0 +1,104 @@
+ideas = {
+
+	cop_output_focus = { 
+	
+		law = yes
+		
+		output_army_dominant = {
+		    available = {
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = -0.2
+				industrial_capacity_factory = 0.25
+				equipment_conversion_speed = 0.25
+				industry_repair_factor = 0.25
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					num_of_naval_factories < 5
+					factor = 40
+			 	}
+			}
+
+			cancel_if_invalid = yes
+		}
+
+		output_army_strengthened = {
+		    available = {
+			}
+			
+			modifier = {
+				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = 0.2
+				equipment_conversion_speed = 0.1
+				industry_repair_factor = 0.1
+			}
+
+			cost = 100
+			
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					num_of_naval_factories < 20
+					factor = 40
+			 	}
+			}
+
+			cancel_if_invalid = yes
+		}
+
+
+		output_navy_strengthened = {
+		    available = {
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = 0.2
+				repair_speed_factor = 0.1
+				refit_ic_cost = -0.1
+			}
+
+			cost = 100
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					num_of_naval_factories > 30
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		output_navy_dominant = {
+		    available = {
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = 0.25
+				repair_speed_factor = 0.20
+				refit_ic_cost = -0.20
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+				 	num_of_naval_factories > 60
+				 	factor = 40
+			 	}
+			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

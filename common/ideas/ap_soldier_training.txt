@@ -1,0 +1,91 @@
+ideas = {
+
+	ap_soldier_training = { 
+	
+		law = yes
+		
+		soldier_basic = {
+			available = {
+			}
+			
+			modifier = {
+				army_morale_factor = -0.05
+				training_time_factor = -0.1
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = communism
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		soldier_full = {
+			available = {
+			}
+
+			modifier = {
+				army_morale_factor = 0.10
+				training_time_factor = 0.15
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		soldier_extended = {
+		    available = {
+			}
+			
+			modifier = {
+				army_morale_factor = 0.2
+				training_time_factor = 0.33
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = neutrality
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		soldier_baptism = {
+			available = {
+			}
+			
+			modifier = {
+				experience_loss_factor = 0.20
+				training_time_factor = -0.33
+			}
+
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = fascism
+					factor = 40
+				}
+   			}
+		}
+	}
+}

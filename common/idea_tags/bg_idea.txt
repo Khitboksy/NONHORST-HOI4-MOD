@@ -1,0 +1,96 @@
+idea_categories = {
+
+	complementary_policies = {
+		slot = cop_high_council
+		slot = cop_head_of_state
+		slot = cop_taxation_policy
+		slot = cop_output_focus
+		slot = cop_penal_system
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = 25
+	}
+
+	military_recruitment = {
+		slot = mr_recruitment_standard
+		slot = mr_service_limit
+		slot = mr_minimum_age
+		slot = mr_maximum_age
+		slot = mr_role_of_women
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = -1
+	}
+
+	government_policies = {
+		slot = gp_mass_media
+		slot = gp_population
+		slot = gp_equality
+		slot = gp_economic_freedom
+		slot = gp_economic_base
+		slot = gp_finances
+		
+		ledger = civilian
+
+		cost = 50
+		removal_cost = 25
+	}
+
+	army_policies = {
+		slot = ap_doctrine_army
+		slot = ap_soldier_training
+		slot = ap_officer_training
+		slot = ap_spec_ops
+		slot = ap_manufactory
+		slot = ap_volunteers
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = 25
+	}
+
+	navy_policies = {
+		slot = np_doctrine_navy
+		slot = np_sailor_training
+		slot = np_admiral_training
+		slot = np_marine_corps
+		slot = np_shipyard
+		slot = np_navy_production
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = 25
+	}
+
+	air_policies = {
+		slot = aip_doctrine_air
+		slot = aip_training_air
+		slot = aip_ace_training
+		slot = aip_airborne
+		slot = aip_fleet
+		slot = aip_air_production
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = 25
+	}
+
+	civilian_policies = {
+		slot = cp_build_focus
+		slot = cp_work_hour_limit
+		slot = cp_education
+		slot = cp_healthcare
+		slot = cp_synthetic_resources_focus_1
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = 25
+	}
+}

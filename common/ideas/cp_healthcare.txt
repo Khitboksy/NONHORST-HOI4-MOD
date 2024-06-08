@@ -1,0 +1,113 @@
+ideas = {
+
+	cp_healthcare = {
+		law = yes
+		
+		healthcare_no = {
+			available = {
+				NOT = { has_government = communism }
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				monthly_population = -0.2
+				stability_factor = -0.1
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		healthcare_private = {
+			available = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.075
+				monthly_population = -0.1
+				stability_factor = -0.05
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_government = fascism
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		healthcare_public_bad = {
+			available = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.045
+				monthly_population = 0.05
+				stability_factor = -0.025
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+
+			cancel_if_invalid = yes
+		}
+		
+		healthcare_public_decent = {
+			available = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.075
+				monthly_population = 0.1
+				stability_factor = 0.05
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		healthcare_public_good = {
+			available = {
+				NOT = { has_government = fascism }
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				monthly_population = 0.2
+				stability_factor = 0.1
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_stability > 0.5
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+					
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
+}

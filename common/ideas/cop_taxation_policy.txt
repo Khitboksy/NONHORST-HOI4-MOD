@@ -1,0 +1,146 @@
+ideas = {
+	cop_taxation_policy = {
+		law = yes
+
+		very_high_taxation = {
+			available = {
+				has_war = yes
+				NOT = { has_government = communism }
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.3
+				political_power_factor = 0.15
+				stability_factor = -0.15
+				research_speed_factor = -0.05
+				drift_defence_factor = -0.5
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_war = yes
+					has_government = fascism
+					factor = 40
+			 	}
+		 	}
+			
+			cancel_if_invalid = yes
+		}
+		
+		high_taxation = {
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				political_power_factor = 0.1
+				stability_factor = -0.1
+				research_speed_factor = -0.04
+				drift_defence_factor = -0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_war = yes
+					has_government = neutrality
+					factor = 40
+			 	}
+		 	}
+			
+			cancel_if_invalid = yes
+		}
+		
+		standard_taxation = {
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+			}
+
+			ai_will_do = {
+				factor = 40
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		low_taxation = {
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = 0.1
+				research_speed_factor = 0.03
+				drift_defence_factor = 0.2
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_war_support > 0.5
+					has_government = democratic
+					factor = 40
+				}
+		 	}
+			
+			cancel_if_invalid = yes
+		}
+		
+		very_low_taxation = {
+			available = {
+				NOT = {
+					has_government = communism	
+					has_government = fascism
+				}
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.3
+				stability_factor = 0.15
+				research_speed_factor = 0.06
+				drift_defence_factor = 0.4
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_war_support < 0.5
+					has_government = democratic
+					factor = 40
+				}
+		 	}
+			
+			cancel_if_invalid = yes
+		}
+		
+		communal_benefits = {
+			available = {
+				has_government = communism
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.4
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_stability > 0.5
+					has_government = communism
+					factor = 80
+				}
+		 	}
+			
+			cancel_if_invalid = yes
+		}
+	}
+}
+

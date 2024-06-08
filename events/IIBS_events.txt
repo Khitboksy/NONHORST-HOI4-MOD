@@ -1,0 +1,43 @@
+﻿###########################
+IIBS Events
+###########################
+
+add_namespace = iibs_event
+
+country_event = {
+	id = iibs_event.1
+	
+	fire_only_once = no
+	
+	hidden = yes
+	
+	trigger = {
+		any_state = {
+			OR = {
+				NOT = {
+					has_state_flag = IIBS_infrastructure_1
+				}
+				NOT = {
+					has_state_flag = IIBS_infrastructure_2
+				}
+				NOT = {
+					has_state_flag = IIBS_infrastructure_3
+				}
+				NOT = {
+					has_state_flag = IIBS_infrastructure_4
+				}
+				NOT = {
+					has_state_flag = IIBS_infrastructure_5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		IIBS_add_building_slots = yes
+	}
+	
+	option = {
+		name = iibs_event.1.a
+	}
+}

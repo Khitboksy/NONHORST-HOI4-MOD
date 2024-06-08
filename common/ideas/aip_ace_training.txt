@@ -1,0 +1,71 @@
+ideas = {
+
+	aip_ace_training = { 
+	
+		law = yes
+
+		training_everyone_ace = {
+		    available = {
+				
+			}
+
+			modifier = {
+				air_ace_bonuses_factor = -0.3
+				air_ace_generation_chance_factor = 0.3
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    has_government = communism
+					factor = 40
+				}
+			}	
+		
+			cancel_if_invalid = yes
+		}
+
+		training_standard_ace = {
+		    available = {
+				
+			}
+
+			modifier = {
+				air_ace_bonuses_factor = 0.1
+				air_ace_generation_chance_factor = 0.1
+			}
+			
+			ai_will_do = {
+   				factor = 40
+				modifier = {
+				    has_government = neutrality
+					factor = 40
+				}
+			}	
+		
+			cancel_if_invalid = yes
+		}
+		
+		training_elite_ace = {
+			available = {
+		       
+			}
+			modifier = {
+			    air_ace_bonuses_factor = 0.3
+				air_ace_generation_chance_factor = -0.3
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = fascism
+					factor = 80
+					
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

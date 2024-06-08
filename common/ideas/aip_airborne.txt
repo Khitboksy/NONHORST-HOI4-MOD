@@ -1,0 +1,76 @@
+ideas = {
+
+	aip_airborne = { 
+	
+		law = yes
+
+		airborne_army = {
+		    available = {
+			}
+
+			modifier = {
+				paradrop_organization_factor = 0.50
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    OR = {
+						has_government = communism
+						has_government = fascism
+					}
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		airborne_air = {
+			available = {
+			}
+
+			modifier = {
+			    paratrooper_aa_defense = 0.6
+				paratroopers_special_forces_contribution_factor = -0.2
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+				    OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+					factor = 40
+					
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		airborne_spec = {
+			available = {
+			}
+
+			modifier = {
+				air_paradrop_attack_factor = 0.2
+				air_paradrop_defence_factor = 0.2
+				extra_paratrooper_supply_grace = 120
+			}
+			
+			ai_will_do = {
+   				factor = 1
+   				modifier = {
+				    has_government = democratic
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+	}
+}

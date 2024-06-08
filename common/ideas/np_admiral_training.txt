@@ -1,0 +1,131 @@
+ideas = {
+
+	np_admiral_training = { 
+	
+		law = yes
+	
+		admiral_attack = {
+			removal_cost = -1
+
+		    available = {
+				NOT = { has_idea = admiral_defense }
+				NOT = { has_idea = admiral_maneuvering }
+				NOT = { has_idea = admiral_coordination }
+			}
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				every_navy_leader = {
+					add_attack = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = fascism
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		admiral_defense = {
+			removal_cost = -1
+
+		    available = {
+				NOT = { has_idea = admiral_attack }
+				NOT = { has_idea = admiral_maneuvering }
+				NOT = { has_idea = admiral_coordination }
+			}
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				every_navy_leader = {
+					add_defense = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		admiral_maneuvering = {
+			removal_cost = -1
+
+		    available = {
+				NOT = { has_idea = admiral_attack }
+				NOT = { has_idea = admiral_defense }
+				NOT = { has_idea = admiral_coordination }
+			}
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				every_navy_leader = {
+					add_maneuver = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				
+				modifier = {
+					has_government = communism
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+
+		admiral_coordination = {
+			removal_cost = -1
+			
+		    available = {
+				NOT = { has_idea = admiral_attack }
+				NOT = { has_idea = admiral_defense }
+				NOT = { has_idea = admiral_maneuvering }
+			}
+
+			modifier = {
+				
+			}
+
+			on_add = {
+				every_navy_leader = {
+					add_coordination = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = neutrality
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

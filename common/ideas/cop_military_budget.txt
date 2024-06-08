@@ -1,0 +1,186 @@
+ideas = {
+	cop_military_budget = {
+		law = yes
+		
+		one_percent = {
+			available = {
+				NOT = {
+					has_government = fascism
+					has_government = communism
+				}
+				has_idea = disarmed_nation
+			}
+				
+			modifier = {	
+				consumer_goods_factor = 0.01
+				industrial_capacity_dockyard = 0.01
+				industrial_capacity_factory = 0.01
+				army_org_factor = 0.01
+				army_morale_factor = 0.01
+				offence = 0.01
+				defence = 0.01
+				stability_factor = -0.02
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					threat < 0.5
+					has_government = democratic
+					factor = 40
+			 	}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		two_percent = {
+			available = {
+				NOT = { has_government = communism }
+				NOT = { has_government = fascism }
+				NOT = { has_idea = disarmed_nation }
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				army_org_factor = 0.02
+				army_morale_factor = 0.02
+				offence = 0.02
+				defence = 0.02
+				stability_factor = -0.04
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					threat > 0.5
+					has_government = democratic
+					factor = 80
+			 	}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		three_percent = {
+			available = {
+				NOT = { has_idea = disarmed_nation }
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.03
+				industrial_capacity_dockyard = 0.03
+				industrial_capacity_factory = 0.03
+				army_org_factor = 0.03
+				army_morale_factor = 0.03
+				offence = 0.03
+				defence = 0.03
+				stability_factor = -0.06
+			}
+
+			ai_will_do = {
+				factor = 40
+			 	modifier = {
+					threat > 0.8
+					has_government = democratic
+					factor = 80
+			 	}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		five_percent = {
+			available = {
+				threat > 0.3
+				OR = {
+					NOT = {
+						has_government = democratic 
+						has_idea = disarmed_nation
+					}
+					has_war = yes
+					tag = USA
+				}
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				offence = 0.05
+				defence = 0.05
+				stability_factor = -0.1
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_government = fascism
+					has_government = neutrality
+					has_government = communism
+					factor = 40
+				}
+			 	modifier = {
+					tag = USA
+					factor = 80
+			 	}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		ten_percent = {
+			available = {
+				has_war = yes
+				NOT = { has_idea = disarmed_nation }
+				NOT = { has_idea = volunteer_only }
+				threat > 0.6
+				OR = {
+					OR = {
+						NOT = { has_government = democratic }
+						has_war_support > 0.9
+					}
+					
+					OR = {
+						NOT = { has_government = neutrality }
+						has_war_support > 0.6
+					}
+				}
+			}
+				
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				army_org_factor = 0.1
+				army_morale_factor = 0.1
+				offence = 0.1
+				defence = 0.1
+				stability_factor = -0.2
+			}
+
+			ai_will_do = {
+				factor = 20
+			 	modifier = {
+					tag = GER
+					factor = 120
+			 	}
+				modifier = {
+					tag = JAP
+					factor = 120
+				}
+				modifier = {
+					tag = ITA
+					factor = 80
+				}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+	}
+}
+

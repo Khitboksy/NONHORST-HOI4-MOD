@@ -1,0 +1,31 @@
+#Infrastucure Level Bonuses
+
+IIBS_infrastructure_1 = {	# on Province
+	enable = { always = yes }
+	
+	local_building_slots_factor = -0.30
+}
+
+#IIBS_infrastructure_2 = {	# on Province
+#	enable = { always = yes }
+#	
+#	local_building_slots_factor = 0.0
+#}
+
+IIBS_infrastructure_3 = {	# on Province
+	enable = { always = yes }
+	
+	local_building_slots_factor = 0.3
+}
+
+IIBS_infrastructure_4 = {	# on Province
+	enable = { always = yes }
+	
+	local_building_slots_factor = 0.6
+}
+
+IIBS_infrastructure_5 = {	# on Province
+	enable = { always = yes }
+	
+	local_building_slots_factor = 0.9
+}

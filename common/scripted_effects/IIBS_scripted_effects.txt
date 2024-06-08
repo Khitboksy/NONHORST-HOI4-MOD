@@ -1,0 +1,74 @@
+#Infrastructure Level Effect Implementations
+
+IIBS_add_building_slots = {
+	every_state = {
+		limit = {
+			infrastructure < 2
+			NOT = {
+				has_state_flag = IIBS_infrastructure_1
+			}
+		}
+		set_state_flag = IIBS_infrastructure_1
+		add_dynamic_modifier = { modifier = IIBS_infrastructure_1 }
+	}
+	every_state = {
+		limit = {
+			infrastructure > 1
+			infrastructure < 3
+			NOT = {
+				has_state_flag = IIBS_infrastructure_2
+			}
+		}
+		IIBS_remove_all_other_modifiers_and_flags = yes
+		set_state_flag = IIBS_infrastructure_2
+	}
+	every_state = {
+		limit = {
+			infrastructure > 2
+			infrastructure < 4
+			NOT = {
+				has_state_flag = IIBS_infrastructure_3
+			}
+		}
+		IIBS_remove_all_other_modifiers_and_flags = yes
+		set_state_flag = IIBS_infrastructure_3
+		add_dynamic_modifier = { modifier = IIBS_infrastructure_3 }
+	}
+	every_state = {
+		limit = {
+			infrastructure > 3
+			infrastructure < 5
+			NOT = {
+				has_state_flag = IIBS_infrastructure_4
+			}
+		}
+		IIBS_remove_all_other_modifiers_and_flags = yes
+		set_state_flag = IIBS_infrastructure_4
+		add_dynamic_modifier = { modifier = IIBS_infrastructure_4 }
+	}
+	every_state = {
+		limit = {
+			infrastructure > 4
+			infrastructure < 6
+			NOT = {
+				has_state_flag = IIBS_infrastructure_5
+			}
+		}
+		IIBS_remove_all_other_modifiers_and_flags = yes
+		set_state_flag = IIBS_infrastructure_5
+		add_dynamic_modifier = { modifier = IIBS_infrastructure_5 }
+	}
+}
+
+IIBS_remove_all_other_modifiers_and_flags = {
+	remove_dynamic_modifier = { modifier = IIBS_infrastructure_1 }
+	remove_dynamic_modifier = { modifier = IIBS_infrastructure_3 }
+	remove_dynamic_modifier = { modifier = IIBS_infrastructure_4 }
+	remove_dynamic_modifier = { modifier = IIBS_infrastructure_5 }
+	
+	clr_state_flag = IIBS_infrastructure_1
+	clr_state_flag = IIBS_infrastructure_2
+	clr_state_flag = IIBS_infrastructure_3
+	clr_state_flag = IIBS_infrastructure_4
+	clr_state_flag = IIBS_infrastructure_5
+}

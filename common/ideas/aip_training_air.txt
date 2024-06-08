@@ -1,0 +1,74 @@
+ideas = {
+
+	aip_training_air = { 
+	
+		law = yes
+		
+		training_air_theory = {
+		    available = {
+			}
+			
+			modifier = {
+				air_mission_efficiency = 0.1
+				air_accidents_factor = -0.05
+				air_mission_xp_gain_factor = -0.20
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+		}
+		
+		training_air_practic = {
+			available = {
+			}
+			
+			modifier = {
+				air_mission_efficiency = 0.1
+			    air_ace_generation_chance_factor = 0.15
+				air_mission_xp_gain_factor = -0.3
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+				    OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+					factor = 40
+					
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		training_air_basic = {
+			available = {
+			}
+			
+			modifier = {
+				air_accidents_factor = 0.15
+				air_mission_xp_gain_factor = 0.3
+			}
+			
+			cancel_if_invalid = yes
+			
+			ai_will_do = {
+   				modifier = {
+				    has_government = communism
+					factor = 40
+				}
+   			}
+		}
+	}
+}

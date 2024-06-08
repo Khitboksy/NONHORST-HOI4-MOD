@@ -1,0 +1,63 @@
+add_namespace = add_research_slots
+
+country_event = {
+	id = add_research_slots.1
+        title = add_research_slots.1.t
+        desc = add_research_slots.1.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = yes
+
+	option = {
+		name = add_research_slots.1.y1
+
+		set_global_flag = add_research_slots_to_all
+		set_global_flag = add_research_slots_to_majors
+
+		every_country = {
+			limit = {
+				is_major = no
+			}
+
+			add_research_slot = 1
+		}
+
+		every_country = {
+			limit = {
+				is_major = yes
+			}
+
+			add_research_slot = 2
+		}
+	}
+
+	option = {
+		name = add_research_slots.1.y2
+
+		set_global_flag = add_research_slots_to_all
+
+		every_country = {
+			add_research_slot = 1
+		}
+	}
+
+	option = {
+		name = add_research_slots.1.y3
+
+		set_global_flag = add_research_slots_to_majors
+
+		every_country = {
+			limit = {
+				is_major = yes
+			}
+
+			add_research_slot = 1
+		}
+	}
+
+        option = { name = add_research_slots.1.n }
+}

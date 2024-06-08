@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			random_country = {
+				limit = {
+					is_ai = no
+				}
+
+				country_event = { id = add_research_slots.1 }
+			}
+		}
+	}
+
+	on_release_as_free = {
+		effect = {
+			limit = {
+				has_global_flag = add_research_slots_to_all
+			}
+			
+			add_research_slot = 1
+		}
+		effect = {
+			limit = {
+				AND = {
+					has_global_flag = add_research_slots_to_majors
+					is_major = yes
+				}
+			}
+			
+			add_research_slot = 1
+		}
+	}
+}

@@ -1,0 +1,83 @@
+toolpack_category = {
+	toolpack_become_host = {
+		icon = generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			NOT = {
+				any_country = {
+					has_country_flag = tp_is_host
+				}
+			}
+		}
+
+		visible = {
+			is_ai = no
+			NOT = {
+				has_country_flag = tp_is_host
+			}
+		}
+
+		complete_effect = {				
+			set_country_flag = tp_is_host
+			set_variable = {
+				global.tp_host_tag = THIS.id
+			}		
+		}
+	}
+	toolpack_relinquish_host = {
+		icon = generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+		
+		visible = {
+			is_ai = no
+			has_country_flag = tp_is_host
+		}
+
+		complete_effect = {				
+			clr_country_flag = tp_is_host
+		}
+	}
+	toolpack_hide_decisions = {
+		icon = generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+		
+		visible = {
+			is_ai = no
+			NOT = {
+				has_country_flag = tp_lower_decisions
+			}
+		}
+
+		complete_effect = {				
+			set_country_flag = tp_lower_decisions
+			custom_effect_tooltip = toolpack_hide_decisions_tt
+		}
+	}
+	toolpack_show_decisions = {
+		icon = generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+		
+		visible = {
+			is_ai = no
+			has_country_flag = tp_lower_decisions
+		}
+
+		complete_effect = {				
+			clr_country_flag = tp_lower_decisions
+			custom_effect_tooltip = toolpack_show_decisions_tt
+		}
+	}
+}

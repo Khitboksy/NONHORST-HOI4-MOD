@@ -1,0 +1,100 @@
+ideas = {
+
+	aip_doctrine_air = { 
+	
+		law = yes
+	
+		doctrine_air_strategic = {
+		    available = {
+				
+			}
+			
+			modifier = {
+				strategic_bomb_visibility = -0.2
+				air_strategic_bomber_bombing_factor = 0.15
+				air_strategic_bomber_defence_factor = 0.1
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    OR = {
+						has_government = communism
+						has_government = democratic
+					}
+					factor = 40
+					
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+		}
+		
+		doctrine_air_land = {
+			available = {
+		       
+			}
+			
+			modifier = {
+				army_bonus_air_superiority_factor = 0.15
+			    air_cas_present_factor = 0.1
+				air_cas_efficiency = 0.20
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					has_government = fascism
+					factor = 40	
+   				}
+			}
+
+			cancel_if_invalid = yes
+		}
+
+		doctrine_air_fleet = {
+			available = {
+				
+			}
+			
+			modifier = {
+				air_nav_efficiency = 0.15
+				air_superiority_efficiency = 0.05
+				air_superiority_detect_factor = 0.2
+			}
+			
+			ai_will_do = {
+   				factor = 1
+   				modifier = {
+				    num_of_naval_factories > 30
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		doctrine_air_defence = {
+			available = {
+				
+			}
+			
+			modifier = {
+				air_intercept_efficiency = 0.2
+				air_escort_efficiency = 0.15
+				air_superiority_detect_factor = 0.10
+			}
+
+			ai_will_do = {
+   				factor = 1
+   				modifier = {
+				    has_government = neutrality
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

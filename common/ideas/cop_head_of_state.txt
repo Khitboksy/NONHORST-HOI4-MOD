@@ -1,0 +1,147 @@
+ideas = {
+	cop_head_of_state = {
+		law = yes
+	
+		head_monarch = {
+			available = {
+				OR = {
+					has_government = neutrality
+					AND = {
+						has_government = democratic
+						OR = {
+							tag = ENG
+							tag = CAN
+							tag = AST
+							tag = NZL
+							tag = SAF
+							tag = IRE
+							tag = BUL
+							tag = ICE
+							tag = YUG
+							tag = DEN
+							tag = SWE
+							tag = NOR
+							tag = SPA
+							tag = BEL
+							tag = HOL
+							tag = MAL
+							tag = ROM
+							tag = GER
+							tag = JAP
+						}
+					}
+					AND = {
+						has_government = fascism
+						OR = {
+							tag = JAP
+							tag = MAN
+						}
+					}
+				}
+			}
+	
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.075
+				war_support_factor = 0.075
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_stability < 0.2
+					has_war_support < 0.2
+					factor = 80
+			 	}
+		 	}
+	
+			cancel_if_invalid = yes
+		}
+		
+		head_prime_minister = {
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+	
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.10
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_stability < 0.2
+					factor = 40
+			 	}
+		 	}
+
+			cancel_if_invalid = yes
+		}
+		
+		head_president = {
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+	
+			modifier = {
+				political_power_factor = 0.1
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_government = democratic
+					factor = 80
+			 	}
+		 	}
+	
+			cancel_if_invalid = yes
+		}
+		
+		head_military = {
+			available = {
+				NOT = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+	
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = -0.10
+				war_stability_factor = 0.20
+				war_support_factor = 0.10
+			}
+
+			ai_will_do = {
+				factor = 1
+			 	modifier = {
+					has_government = fascism
+					factor = 80
+			 	}
+		 	}
+	
+			cancel_if_invalid = yes
+		}
+		
+		head_chairman = {
+			picture = chairman
+	
+			available = {
+				has_government = communism
+			}
+
+			modifier = {
+				political_power_factor = 0.35
+			}
+	
+			cancel_if_invalid = yes
+		}
+	}
+}
+

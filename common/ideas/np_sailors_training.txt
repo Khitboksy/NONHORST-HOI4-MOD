@@ -1,0 +1,72 @@
+ideas = {
+
+	np_sailor_training = { 
+	
+		law = yes
+
+		sailor_training_theory = {
+		    available = {
+			}
+			
+			modifier = {
+				critical_receive_chance = -0.15
+				naval_morale_factor = 0.15
+				experience_gain_navy_factor = -0.2
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    OR = {
+						has_government = communism
+						has_government = democratic
+					}
+					factor = 40					
+				}
+			}		
+			
+			cancel_if_invalid = yes
+		}
+
+		sailor_training_practic = {
+			available = {
+			}
+			
+			modifier = {
+			    critical_receive_chance = -0.1
+				naval_morale_factor = 0.2
+				experience_gain_navy_factor = -0.3
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				    OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		sailor_training_basic = {
+			available = {
+			}
+			
+			modifier = {
+				naval_accidents_chance = 0.2
+				naval_morale_factor = -0.1
+				experience_gain_navy_factor = 0.3
+			}
+			
+			ai_will_do = {
+   				factor = 20
+   			}
+
+			cancel_if_invalid = yes
+		}
+	}
+}

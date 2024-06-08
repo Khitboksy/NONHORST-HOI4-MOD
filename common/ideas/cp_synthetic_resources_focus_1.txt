@@ -1,0 +1,40 @@
+ideas = {
+
+	cp_synthetic_resources_focus_1 = { 
+	
+		law = yes
+		
+		synthetic_resources_focus_rubber_1 = {
+		    available = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+
+			on_add = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = rubber
+					amount = 5
+				}
+
+			}
+
+			on_remove = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = rubber
+					amount = -5
+				}
+			}
+			
+			cancel_if_invalid = yes
+			
+			ai_will_do = {
+   				factor = 40
+   			}
+		}
+
+	}
+}

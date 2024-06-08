@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_constructions_inex_state"
+		textureFile = "gfx//interface//constructions_inex_state.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_constructions_inex_shared"
+		textureFile = "gfx//interface//constructions_inex_shared.dds"
+	}
+}
