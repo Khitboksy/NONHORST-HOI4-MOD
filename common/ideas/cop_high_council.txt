@@ -12,7 +12,7 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 1
-				command_power_gain = .5
+				command_power_gain = 0.25
 			}
 			
 			ai_will_do = {

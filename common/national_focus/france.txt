@@ -719,6 +719,9 @@
 				limit = { amount_research_slots > 3 }
 				num_of_factories > 120
 			}
+			any_enemy_country = {
+				is_major_not_original_tag_root = yes
+			}
 			amount_research_slots < 7
 		}
 		x = 0
