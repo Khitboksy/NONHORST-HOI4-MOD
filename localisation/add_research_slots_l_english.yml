@@ -1,7 +1,0 @@
-﻿l_english:
-  add_research_slots.1.t:0 "More Research Slots Setup"
- add_research_slots.1.d:0 "Please select how many research slots to add."
- add_research_slots.1.y1:0 "Add 2 research slots to each major nation, and 1 research slot to all other nations."
- add_research_slots.1.y2:0 "Add 1 research slot to each nation."
- add_research_slots.1.y3:0 "Add 1 research slot to each major nation."
- add_research_slots.1.n:0 "Don't add any research slots."
