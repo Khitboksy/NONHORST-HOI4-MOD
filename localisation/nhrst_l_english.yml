@@ -1,0 +1,12 @@
+l_english:
+  HST_fascism:0 "International Security State"
+  HST_fascism_DEF:0 "the International Security State"
+  HST_democratic:0 "Republic of Nations"
+  HST_democratic_DEF:0 "the Republic of Nations"
+  HST_neutrality:0 "League of Nations"
+  HST_neutrality_DEF:0 "the League of Nations
+  HST_communism:0 "Democratic Replublic of Nations"
+  HST_communism_DEF:0 "the Democratic Republic of Nations"
+  HST:0 "League of Nations"
+  HST_DEF:0 "League of Nations"
+  HST_ADJ:0 "League of Nations"
