@@ -11,7 +11,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_dockyard = -0.2
 				industrial_capacity_factory = 0.25
-				equipment_conversion_speed = 0.25
+				#equipment_conversion_speed = 0.25
 				industry_repair_factor = 0.25
 			}
 
@@ -35,7 +35,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_dockyard = -0.1
 				industrial_capacity_factory = 0.2
-				equipment_conversion_speed = 0.1
+				#equipment_conversion_speed = 0.1
 				industry_repair_factor = 0.1
 			}
 
