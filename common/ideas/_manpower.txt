@@ -21,7 +21,6 @@ ideas = {
 				production_speed_buildings_factor = 0.10
 				research_speed_factor = 0.10
 				mobilization_speed = -3
-                war_support_weekly = -0.005
 				enemy_justify_war_goal_time	= -0.3
 				justify_war_goal_time = 0.3
 			}
