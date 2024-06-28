@@ -32,10 +32,6 @@ if = {
 		set_air_oob = "ENG_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
-			engines_1 = 1
-			engines_2 = 1
-			early_bombs = 1
-			aircraft_construction = 1
 			iw_small_airframe = 1
 			iw_medium_airframe = 1
 			iw_large_airframe = 1
@@ -131,8 +127,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -1003,9 +997,9 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = empty
 			fixed_ship_secondaries_slot = dp_ship_secondaries_2
-			mid_1_custom_slot = ship_mine_layer_1
-			mid_2_custom_slot = ship_mine_layer_1
-			rear_1_custom_slot = ship_mine_layer_1
+			mid_1_custom_slot = ship_light_medium_battery_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_torpedo_1
 		}
 	}
 	create_equipment_variant = {
@@ -1529,7 +1523,7 @@ if = {
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_2
 				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = ship_mine_layer_sub
+				rear_1_custom_slot = ship_torpedo_sub_1
 			}
 		}
 		create_equipment_variant = {

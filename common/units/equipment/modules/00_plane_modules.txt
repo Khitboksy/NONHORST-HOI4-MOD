@@ -1282,7 +1282,7 @@ equipment_modules = {
 		}
 	}
 
-	airdropped_mines = {
+	airdropped_ = {
 		abbreviation = "adm"
 		category = mine_warfare_offense
 		sfx = sfx_ui_sd_module_turret
@@ -1290,11 +1290,11 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2
 			weight = 2
-			mines_planting = 0.05
+			_planting = 0.05
 		}
 		xp_cost = 0
 		allow_mission_type = {
-			naval_mines_planting
+			naval__planting
 		}
 	}
 
@@ -1612,11 +1612,11 @@ equipment_modules = {
 			build_cost_ic = 3
 			weight = 20
 			air_agility = -5
-			mines_sweeping = 0.1
+			_sweeping = 0.1
 		}
 		xp_cost = 0
 		allow_mission_type = {
-			naval_mines_sweeping
+			naval__sweeping
 		}
 		dismantle_cost_ic = 1
 	}
@@ -1917,7 +1917,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 
 			add_stats = {
@@ -1966,7 +1966,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 
 			add_stats = {
@@ -2015,7 +2015,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 			add_stats = {
 				air_agility = 1
@@ -2063,7 +2063,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 			add_stats = {
 				air_agility = 2
@@ -2111,7 +2111,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 			add_stats = {
 				air_agility = 2
@@ -2155,7 +2155,7 @@ equipment_modules = {
 				naval_patrol
 				cas
 				attack_logistics
-				naval_mines_planting
+				naval__planting
 			}
 			add_stats = {
 				air_agility = 4

@@ -39,15 +39,7 @@
     very_low_taxation:0 "Очень низкий"
     communal_benefits:0 "Коммунальные льготы"
 
-    #MILITARY BUDGET
-    cop_military_budget:0 "Военный бюджет"
 
-    #LAWS
-    one_percent:0 "Один процент"
-    two_percent:0 "Два процента"
-    three_percent:0 "Три процента"
-    five_percent:0 "Пять процентов"
-    ten_percent:0 "Десять процентов"
 
     #OUTPUTS FOCUS
     cop_output_focus:0 "Производство"
@@ -121,7 +113,6 @@
     women_workers:0 "Женщины-работницы"
     women_auxillary:0 "Вспомогательные отряды"
     limited_female_service:0 "Ограниченный призыв"
-    egalitarian:0 "Равные права"
 
     #MERCENARIES
     mr_mercenaries:0 "Вербовка наемников"
@@ -435,8 +426,6 @@
     synthetic_resources_focus_steel_1:0 "Стали"
     synthetic_resources_focus_tungsten_1:0 "Tungsten"
 
-    #Synthetic Resources Focus - 2
-    cp_synthetic_resources_focus_2:0 "Фокус синтетических ресурсов - 2"
 
     #LAWS
     synthetic_resources_focus_aluminium_2:0 "Алюминий"

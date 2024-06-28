@@ -789,7 +789,7 @@ equipments = {
 		allow_mission_type = {
 			naval_bomber
 			port_strike
-			naval_mines_planting
+			naval__planting
 			naval_mines_sweeping
 			naval_patrol
 		}

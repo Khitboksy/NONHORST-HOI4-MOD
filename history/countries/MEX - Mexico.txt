@@ -15,9 +15,6 @@ if = {
 	set_air_oob = "MEX_1936_air_bba"
 	set_technology = {
 		aa_lmg = 1
-		engines_1 = 1
-		early_bombs = 1
-		aircraft_construction = 1
 		iw_small_airframe = 1
 	}
 	else = {
@@ -69,7 +66,6 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		basic_naval_mines = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
 		basic_battery = 1

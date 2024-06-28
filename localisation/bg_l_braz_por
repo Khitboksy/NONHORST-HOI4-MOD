@@ -39,15 +39,6 @@ l_braz_por:
     very_low_taxation:0 "Muito Baixo"
     communal_benefits:0 "Benefícios Comuns"
 
-    #MILITARY BUDGET
-    cop_military_budget:0 "Orçamento Militar"
-
-    #LAWS
-    one_percent:0 "Um por cento"
-    two_percent:0 "Dois por cento"
-    three_percent:0 "Três por cento"
-    five_percent:0 "Cinco por cento"
-    ten_percent:0 "Dez por cento"
 
     #OUTPUTS FOCUS
     cop_output_focus:0 "Foco de saída"
@@ -121,7 +112,6 @@ l_braz_por:
     women_workers:0 "Mulheres trabalhadoras"
     women_auxillary:0 "Mulheres Auxiliares"
     limited_female_service:0 "Serviço Feminino Limitado"
-    egalitarian:0 "Igualitarismo"
 
     #MERCENARIES
     mr_mercenaries:0 "Recrutamento de Mercenários"
@@ -435,8 +425,6 @@ l_braz_por:
     synthetic_resources_focus_steel_1:0 "Aço"
     synthetic_resources_focus_tungsten_1:0 "Tungstênio"
 
-    #Synthetic Resources Focus - 2
-    cp_synthetic_resources_focus_2:0 "Foco em Recursos Sintéticos - 2"
 
     #LAWS
     synthetic_resources_focus_aluminium_2:0 "Alumínio"

@@ -27,7 +27,6 @@ if = {
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
-			engines_1 = 1
 		}
 	else = {
 		set_air_oob = "ROM_1936_air_legacy"
@@ -111,7 +110,7 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		basic_naval_mines = 1
+
 		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1

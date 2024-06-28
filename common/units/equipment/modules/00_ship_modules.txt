@@ -2017,65 +2017,6 @@ equipment_modules = {
 	}
 
 
-#   # ### #  # ###     #    ##  #   # ### ###  
-## ##  #  ## # #       #   #  #  # #  #   #  # 
-# # #  #  # ## ##      #   ####   #   ##  ###  
-#   #  #  #  # #       #   #  #   #   #   #  # 
-#   # ### #  # ###     ### #  #   #   ### #  # 
-
-
-
-	ship_mine_layer_1 = {
-		abbreviation = "scp"
-		category = ship_mine_layer
-		gui_category = ship_mine_warfare
-		gfx = ship_mine_layer
-		
-		add_stats = {
-			mines_planting = 1
-			build_cost_ic = 90
-		}
-		multiply_stats = {
-			naval_speed = -0.02			
-		}
-	}
-
-	ship_mine_layer_sub = {
-		abbreviation = "scq"
-		category = ship_mine_layer_sub
-		gfx = ship_mine_layer_sub
-		
-		add_stats = {
-			mines_planting = 1
-			build_cost_ic = 90
-			naval_speed = -0.02
-		}
-	}
-
-
-#   # ### #  # ###      ## #   # ### ### ###  ### ###  
-## ##  #  ## # #       #   #   # #   #   #  # #   #  # 
-# # #  #  # ## ##       #  # # # ##  ##  ###  ##  ###  
-#   #  #  #  # #         # # # # #   #   #    #   #  # 
-#   # ### #  # ###     ##   # #  ### ### #    ### #  # 
-
-
-
-	ship_mine_sweeper_1 = {
-		abbreviation = "scr"
-		category = ship_mine_warfare
-		gfx = ship_mine_sweeper
-		
-		add_stats = {
-			mines_sweeping = 1
-			build_cost_ic = 30
-		}
-
-		multiply_stats = {
-			naval_speed = -0.02
-		}
-	}
-
 
 ###  ### ###  ### #  #      ##  #  #  ##  ###   ##  ### 
 #  # #   #  #  #  #  #     #  # #  # #  # #  # #    #   
