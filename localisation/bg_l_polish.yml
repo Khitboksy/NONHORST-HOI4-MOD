@@ -39,7 +39,15 @@
    very_low_taxation:0 "Bardzo niski"
    communal_benefits:0 "Świadczenia komunalne"
 
+   #MILITARY BUDGET
+   cop_military_budget:0 "Military Budget"
 
+   #LAWS
+   one_percent:0 "One Percent"
+   two_percent:0 "Two Percent"
+   three_percent:0 "Three Percent"
+   five_percent:0 "Five Percent"
+   ten_percent:0 "Dziesięć procent"
 
    #OUTPUTS FOCUS
    cop_output_focus:0 "Wydajność"
@@ -113,6 +121,7 @@
    women_workers:0 "Kobiety pracujące"
    women_auxillary:0 "Posiłkowanie się kobietami"
    limited_female_service:0 "Ograniczona służba kobiet"
+   egalitarian:0 "Egalitaryzm"
 
    #MERCENARIES
    mr_mercenaries:0 "Rekrutacja najemników"
@@ -426,6 +435,8 @@
    synthetic_resources_focus_steel_1:0 "Stal"
    synthetic_resources_focus_tungsten_1:0 "Wolfram"
 
+   #Synthetic Resources Focus - 2
+   cp_synthetic_resources_focus_2:0 "Skupienie na surowcach syntetycznych - 2"
 
    #LAWS
    synthetic_resources_focus_aluminium_2:0 "Aluminium"

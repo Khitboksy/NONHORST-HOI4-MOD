@@ -46,7 +46,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 
-		submarine_mine_laying = 1
+
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -64,7 +64,7 @@ if = {
 	add_ideas = POR_unstable_republic
 	set_stability = 0.60
 	set_war_support = 0.15	
-	set_research_slots = 2
+	set_research_slots = 3
 
 	ENG = {
 		add_opinion_modifier = {

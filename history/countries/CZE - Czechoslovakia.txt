@@ -21,7 +21,6 @@ if = {
 			aa_lmg = 1
 			iw_small_airframe = 1
 			iw_medium_airframe = 1
-            basic_small_airframe = 1
 		}
 	else = {
 		set_air_oob = "CZE_1936_air_legacy"

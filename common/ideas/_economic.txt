@@ -112,7 +112,6 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = -0.3
 				industrial_capacity_factory = -0.10
                 industrial_capacity_dockyard = -0.10
-                research_speed_factor = 0.1
                 political_power_factor = 0.15
                 MONTHLY_POPULATION = 0.15
 

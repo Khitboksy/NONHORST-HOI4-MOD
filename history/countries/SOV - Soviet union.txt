@@ -718,9 +718,9 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SOV_1936_air_bba"
 		set_technology = {
+			iw_small_airframe = 1
 			aa_lmg = 1
 			aa_cannon_1 = 1
-			iw_small_airframe = 1
 			iw_medium_airframe = 1
 			iw_large_airframe = 1
 			basic_small_airframe = 1
@@ -758,7 +758,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	mass_assault = 1
 	fleet_in_being = 1
 	fuel_silos = 1
-	fuel_refining = 1
+	synth_oil_experiments = 1
 	basic_train = 1
 }
 
@@ -801,7 +801,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 
-		submarine_mine_laying = 1
+
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1

@@ -73,7 +73,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 
-		submarine_mine_laying = 1
+
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
@@ -194,7 +194,6 @@ if = {
 			set_technology = {
 				iw_medium_airframe = 1
 				basic_medium_airframe = 1
-				engines_2 = 1
 				improved_small_airframe = 1
 			}
 		else = {

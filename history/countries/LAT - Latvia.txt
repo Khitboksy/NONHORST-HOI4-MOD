@@ -89,6 +89,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_torpedo = 1
+
 		early_ship_hull_submarine = 1
 	}
 }

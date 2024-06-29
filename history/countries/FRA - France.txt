@@ -36,6 +36,7 @@ if = {
 			iw_small_airframe = 1
 			iw_medium_airframe = 1
 			iw_large_airframe = 1
+			air_torpedoe_1 = 1
 		}
 	else = {
 		set_air_oob = "FRA_1936_air_legacy"
@@ -71,7 +72,7 @@ set_technology = {
 	trench_warfare = 1
 	fleet_in_being = 1
 	fuel_silos = 1
-	fuel_refining = 1
+	synth_oil_experiments = 1
 	basic_train = 1
 }
 
@@ -120,13 +121,15 @@ if = {
 		early_battleship = 1
 		early_battlecruiser = 1
 		basic_battlecruiser = 1
-		early_rier = 1
+		early_carrier = 1
 		transport = 1
 	}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
+
+
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -134,7 +137,7 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_ship_hull_heavy = 1
-		early_ship_hull_rier = 1
+		early_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_heavy_battery = 1
 		basic_light_battery = 1
@@ -154,7 +157,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	set_technology = {
-		armored_1 = 1
+		armored_car1 = 1
 	}
 }
 1939.1.1 = {
@@ -246,7 +249,7 @@ if = {
 		trench_warfare = 1
 		prepared_defense = 1
 		battlefleet_concentration = 1
-		subsidiary_rier_role = 1
+		subsidiary_carrier_role = 1
 		convoy_sailing = 1
 		submarine_operations = 1
 
@@ -309,7 +312,7 @@ if = {
 		set_technology = {
 			improved_ship_hull_light = 1
 			improved_ship_hull_heavy = 1
-			basic_ship_hull_rier = 1
+			basic_ship_hull_carrier = 1
 			improved_heavy_armor_scheme = 1
 			improved_light_battery = 1
 			basic_heavy_battery = 1
@@ -406,7 +409,7 @@ recruit_character = FRA_felix_gouin
 recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
-recruit_character = FRA_marcel_bud
+recruit_character = FRA_marcel_bucard
 
 
 if = {
@@ -760,7 +763,7 @@ if = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = ship_mine_layer_sub
 		}
 		obsolete = yes
 	}
@@ -898,7 +901,7 @@ if = {
 			fixed_ship_armor_slot = empty
 			mid_1_custom_slot = ship_anti_air_1
 			mid_2_custom_slot = ship_light_medium_battery_2
-			rear_1_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
 	create_equipment_variant = {
@@ -1034,7 +1037,7 @@ if = {
 				rear_1_custom_slot = ship_airplane_launcher_1
 			}
 		}
-	# riers #
+	# Carriers #
 	create_equipment_variant = {
 		name = "Béarn Class"
 		type = ship_hull_carrier_conversion_bb

@@ -12,7 +12,10 @@ spriteTypes = {
 		name = "GFX_idea_slot_cop_taxation_policy"
 		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_slot_cop_military_budget"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_slot_cop_output_focus"
 		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
@@ -104,7 +107,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_communal_benefits.dds"
 	}
 
-
+	#Military Budget
+	spriteType = {
+		name = "GFX_idea_one_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_one_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_two_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_two_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_three_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_three_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_five_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_five_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ten_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_ten_percent.dds"
+	}
 
 	#Output Focus
 	spriteType = {
@@ -268,7 +291,11 @@ spriteTypes = {
 		name = "GFX_idea_limited_female_service"
 		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_limited_female_service_gender.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_egalitarian"
+		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_egalitarian_gender.dds"
+	}
 
 	#Mercenary
 	spriteType = {
@@ -884,6 +911,10 @@ spriteTypes = {
 		name = "GFX_idea_slot_cp_synthetic_resources_focus_1"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_slot_cp_synthetic_resources_focus_2"
+		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
 
 	
 	#Construction Focus
@@ -984,8 +1015,53 @@ spriteTypes = {
 
 	#Synthetic Resources - 1
 	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_aluminium_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_aluminium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_chromium_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_chromium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_oil_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_oil.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_synthetic_resources_focus_rubber_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_rubber.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_steel_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_tungsten_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_tungsten.dds"
+	}
 
+	#Synthetic Resources - 2
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_aluminium_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_aluminium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_chromium_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_chromium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_oil_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_rubber_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_rubber.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_steel_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_tungsten_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_tungsten.dds"
+	}
 }

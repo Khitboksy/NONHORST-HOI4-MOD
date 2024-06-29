@@ -15,12 +15,11 @@ if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "USA_1936_air_bba"
 		set_technology = {
-            aa_lmg = 1
-            iw_small_airframe = 1
-			iw_medium_airframe = 1
+			iw_small_airframe = 1
 			basic_small_airframe = 1
+			iw_medium_airframe = 1
 			basic_medium_airframe = 1
-
+			aa_lmg = 1
 		}
 	else = {
 		set_air_oob = "USA_1936_air_legacy"
@@ -111,8 +110,6 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-
-		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
