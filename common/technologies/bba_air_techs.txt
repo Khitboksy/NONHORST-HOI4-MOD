@@ -13,7 +13,6 @@ technologies = {
 		}
         enable_equipment_modules = {
 			engine_1_1x
-			engine_1_2x
 			recon_camera
 			bomb_locks
 			small_bomb_bay
@@ -70,8 +69,6 @@ technologies = {
 
         enable_equipment_modules = {
             engine_2_1x
-            engine_2_2x
-            armor_piercing_bomb_locks
         }
 		enable_equipments = {
 			small_plane_airframe_1
@@ -148,7 +145,6 @@ technologies = {
 
         enable_equipment_modules = {
             engine_3_1x
-            engine_3_2x
         }
 		enable_equipments = {
 			small_plane_airframe_2
@@ -159,8 +155,6 @@ technologies = {
 			cv_small_plane_cas_airframe_2
 			cv_small_plane_naval_bomber_airframe_2
 			cv_small_plane_suicide_airframe_2
-			engine_3_1x
-			engine_3_2x
 		}
 	
 		path = {
@@ -233,8 +227,6 @@ technologies = {
 
         enable_equipment_modules = {
             engine_4_1x
-            engine_4_2x
-            heavy_bomb_locks
         }
 		enable_equipments = {
 			small_plane_airframe_3
@@ -307,7 +299,6 @@ technologies = {
 
         enable_equipment_modules = {
         	jet_engine_1x
-            jet_engine_2x
         }
 		enable_equipments = {
 			small_plane_airframe_4
@@ -364,10 +355,7 @@ technologies = {
 		}
         enable_equipment_modules = {
 			engine_1_2x
-			engine_1_3x
-			engine_1_4x
 			recon_camera
-			bomb_locks
 			small_bomb_bay
 			medium_bomb_bay
 			non_strategic_materials_medium
@@ -407,17 +395,11 @@ technologies = {
 
         enable_equipment_modules = {
             engine_2_2x
-            engine_2_3x
-            engine_2_4x
-            armor_piercing_bomb_locks
         }
 		enable_equipments = {
 			medium_plane_airframe_1
 			medium_plane_fighter_airframe_1
 			medium_plane_scout_plane_airframe_1
-			engine_2_2x
-			engine_2_3x
-			engine_2_4x
 		}
 	
 		path = {
@@ -473,10 +455,7 @@ technologies = {
 	improved_medium_airframe = {
 
         enable_equipment_modules = {
-            heavy_bomb_locks
             engine_3_2x
-            engine_3_3x
-            engine_3_4x
         }
 		enable_equipments = {
 			medium_plane_airframe_2
@@ -537,7 +516,6 @@ technologies = {
 
         enable_equipment_modules = {
             engine_4_2x
-            engine_4_3x
         }
 		enable_equipments = {
 			medium_plane_airframe_3
@@ -592,8 +570,6 @@ technologies = {
 
         enable_equipment_modules = {
         	jet_engine_2x
-            jet_engine_3x
-            jet_engine_4x
         }
 		enable_equipments = {
 			medium_plane_airframe_4
@@ -632,11 +608,8 @@ technologies = {
 			large_plane_airframe_0
 			large_plane_maritime_patrol_plane_airframe_0
 			engine_1_4x
-			engine_1_6x
 		}
         enable_equipment_modules = {
-			engine_1_4x
-			engine_1_6x
 			recon_camera
 			large_bomb_bay
             non_strategic_materials_large
@@ -686,13 +659,10 @@ technologies = {
 
         enable_equipment_modules = {
             engine_2_4x
-            engine_2_6x
         }
 		enable_equipments = {
 			large_plane_airframe_1
 			large_plane_maritime_patrol_plane_airframe_1
-			engine_2_4x
-			engine_2_6x
 		}
 	
 		path = {
@@ -733,7 +703,6 @@ technologies = {
 
         enable_equipment_modules = {
 			engine_3_4x
-			engine_3_6x
         }
 		enable_equipments = {
 			large_plane_airframe_2
@@ -778,7 +747,6 @@ technologies = {
 
         enable_equipment_modules = {
             engine_4_4x
-            engine_4_6x
         }
 		enable_equipments = {
 			large_plane_airframe_3
@@ -823,7 +791,6 @@ technologies = {
 
         enable_equipment_modules = {
         	jet_engine_4x
-            jet_engine_6x
         }
 		enable_equipments = {
 			large_plane_airframe_4

@@ -7,13 +7,13 @@ units= {
 		task_force = {				
 			name = "Hochseeflotte"
 			location = 241  # Wilhemshaven
-			ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
-			ship = { name = "Admiral Scheer" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland" } } }
+			ship = { name = "Admiral Scheer" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland" } } }
 			ship = { name = "Nürnberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } } 		
 			ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }		
-			ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
-			ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
-			ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+			ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }
+			ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }
+			ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }
 			ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
 			# 1. Torpedobootflottille
 			ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
@@ -121,7 +121,7 @@ instant_effect = {
 		amount = 2
 		industrial_manufacturer = mio:GER_blohm_und_voss_organization
 	}
-	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
+	# DD: 1934 (x4) ("Z1" "Z2" "Z3" "Z4")
 	add_equipment_production = {
 		equipment = {
 			type = destroyer_2
@@ -147,7 +147,7 @@ instant_effect = {
 		equipment = {
 			type = heavy_cruiser_1
 			creator = "GER"
-			version_name = "Deutschland Class"
+			version_name = "Deutschland"
 		}
 		requested_factories = 1
 		progress = 0.95

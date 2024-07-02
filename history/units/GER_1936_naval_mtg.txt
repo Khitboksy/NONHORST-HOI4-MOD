@@ -37,7 +37,7 @@ units= {
                 name = "Nürnberg"
                 definition = light_cruiser
                 start_experience_factor = 0.3
-                    equipment = {
+                 equipment = {
                     ship_hull_cruiser_2 = {
                         amount = 1
                         owner = GER
@@ -45,16 +45,113 @@ units= {
                     }
                 }
 			}
-			ship = { name = "Leipzig" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig" } } }		
-			ship = { name = "Königsberg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }			
-			ship = { name = "Karlsruhe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }	
-			ship = { name = "Köln" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg" } } }			
-			ship = { name = "Emden" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Emden" } } }
+			ship = {
+                name = "Leipzig"
+                definition = light_cruiser
+                start_experience_factor = 0.3
+                equipment = {
+                    ship_hull_cruiser_2 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Leipzig"
+                    }
+                }
+			}
+			ship = {
+                name = "Königsberg"
+                definition = light_cruiser
+                start_experience_factor = 0.3
+                equipment = {
+                    ship_hull_cruiser_2 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Königsberg"
+                    }
+                }
+			}
+			ship = {
+                name = "Karlsruhe"
+                definition = light_cruiser
+                start_experience_factor = 0.3
+                equipment = {
+                    ship_hull_cruiser_2 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Königsberg"
+                    }
+                }
+			}
+			ship = {
+                name = "Köln"
+                definition = light_cruiser
+                start_experience_factor = 0.3
+                equipment = {
+                    ship_hull_cruiser_2 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Königsberg"
+                    }
+                }
+			}
+			ship = {
+                name = "Emden"
+                definition = light_cruiser
+                start_experience_factor = 0.2
+                equipment = {
+                    ship_hull_cruiser_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Emden"
+                    }
+                }
+			}
+
 			# 1. Torpedobootflottille
-			ship = { name = "Jaguar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24" } } }
-			ship = { name = "Leopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24" } } }
-			ship = { name = "Luchs" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24" } } }
-			ship = { name = "Tiger" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24" } } }
+
+			ship = {
+                name = "Jaguar"
+                definition = destroyer
+                equipment = {
+                    ship_hull_light_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Zerstörer 1934A"
+                    }
+                }
+	        }
+			ship = {
+                name = "Leopard"
+                definition = destroyer
+                equipment = {
+                ship_hull_light_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Zerstörer 1934A"
+                    }
+                }
+			}
+			ship = {
+                name = "Luchs"
+                definition = destroyer
+                equipment = {
+                    ship_hull_light_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Zerstörer 1934A"
+                    }
+                }
+			}
+			ship = {
+                name = "Tiger"
+                definition = destroyer
+                equipment = {
+                    ship_hull_light_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Zerstörer 1934A"
+                    }
+                }
+			}
 		}
 
 		task_force = {
@@ -76,8 +173,50 @@ units= {
 		task_force = {
 			name = "Marineschule Kiel"
 			location = 6389 	# Kiel
-			ship = { name = "Brummer" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse" } } }			
-			ship = { name = "Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse" } } }
+			ship = {
+                name = "Brummer"
+                definition = light_cruiser
+                equipment = {
+                    ship_hull_cruiser_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Bremse"
+                    }
+                }
+			}
+			ship = {
+                name = "Bremse"
+                definition = light_cruiser
+                equipment = {
+                    ship_hull_cruiser_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Bremse"
+                    }
+                }
+			}
+			ship = {
+                name = "Kiel"
+                definition = light_cruiser
+                equipment = {
+                    ship_hull_cruiser_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Bremse"
+                    }
+                }
+            }
+            ship = {
+                name = "Regensburg"
+                definition = light_cruiser
+                equipment = {
+                    ship_hull_cruiser_1 = {
+                        amount = 1
+                        owner = GER
+                        version_name = "Bremse"
+                    }
+                }
+            }
 		}
 	}
 	fleet = {
