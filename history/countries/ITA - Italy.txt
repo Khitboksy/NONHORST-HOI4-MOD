@@ -298,7 +298,7 @@ set_variable = { ITA_rm_naval_invasion_capacity = 0 }
 set_variable = { ITA_rm_invasion_preparation = 0 }
 set_variable = { ITA_rm_naval_strike_agility_factor = 0 }
 set_variable = { ITA_rm_naval_critical_score_chance_factor = 0 }
-set_variable = { ITA_rm_sub_retreat_speed = 0 }
+set_variable = { ITA_rm_sub__speed = 0 }
 set_variable = { ITA_rm_decryption_factor = 0 }
 set_variable = { ITA_rm_navy_intel_factor = 0 }
 set_variable = { ITA_rm_naval_invasion_prep_speed = 0 }

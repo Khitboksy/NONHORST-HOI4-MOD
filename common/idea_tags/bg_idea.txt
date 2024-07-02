@@ -59,7 +59,7 @@ idea_categories = {
 		slot = np_sailor_training
 		slot = np_admiral_training
 		slot = np_marine_corps
-		slot = np_shipyard
+		#slot = np_shipyard
 		slot = np_navy_production
 
 		ledger = civilian
@@ -73,7 +73,7 @@ idea_categories = {
 		slot = aip_training_air
 		slot = aip_ace_training
 		slot = aip_airborne
-		slot = aip_fleet
+		#slot = aip_fleet
 		slot = aip_air_production
 
 		ledger = civilian

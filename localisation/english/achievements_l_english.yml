@@ -77,7 +77,7 @@
  capitulated_soviet_with_only_finland_and_another_nordic: "Capitulated Soviet with only [FIN.GetName] and another Nordic country in the faction"
  achievement_FIN_has_joined_a_faction: "[FIN.GetName] has joined a faction"
  achievement_fin_has_lost_one_starting_core: "[FIN.GetName] has lost one starting core territory"
- achivement_has_retreated_from_the_mainland: "The Swedish King has escaped from the mainland"
+ achivement_has_ed_from_the_mainland: "The Swedish King has escaped from the mainland"
  achivement_ice_capitulated_eng: "[ICE.GetName] capitulated [ENG.GetName]"
  achievement_has_managed_to_travel_to_cape_town_in_18_days: "Travel from Stockholm to Cape Town in less than 19 days"
  achievement_den_has_never_been_puppeted: "Denmark has been puppeted"

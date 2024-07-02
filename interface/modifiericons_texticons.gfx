@@ -1726,8 +1726,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_retreat_texticon"
-		texturefile = "gfx/texticons/retreat_texticon.dds"
+		name = "GFX__texticon"
+		texturefile = "gfx/texticons/_texticon.dds"
 		legacy_lazy_load = no
 	}
 	

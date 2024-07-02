@@ -126,7 +126,7 @@
   AAT_norway.15.b: "We will fight on!"
   
   AAT_norway.16.t: "We are exiled but not empty handed"
-  AAT_norway.16.desc: "Despite our tragic retreat from [NOR.GetName], we can at least find solace in the fact that our leaders had the foresight to prepare for the worst and diverted resources to serve us in retaking [NOR.GetAdjective] territory.\n\nThese tools should make it easier to start the odyssey to our shores of old."
+  AAT_norway.16.desc: "Despite our tragic  from [NOR.GetName], we can at least find solace in the fact that our leaders had the foresight to prepare for the worst and diverted resources to serve us in retaking [NOR.GetAdjective] territory.\n\nThese tools should make it easier to start the odyssey to our shores of old."
   AAT_norway.16.a: "We'll be back!"
 
   AAT_norway.17.t: "[NOR.GetAdjective] Territorial Demands"

@@ -6,7 +6,7 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 6000
+		base_cost = 7200
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 5
@@ -16,7 +16,7 @@ buildings = {
 		max_fuel_building = 1.5 #k
 		allied_build = yes
 
-		infrastructure_construction_effect = yes
+		infrastructure_construction_effect = no
 	}
 
 	arms_factory = {
@@ -99,13 +99,13 @@ buildings = {
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
+		base_cost = 1000
 		per_level_extra_cost = 500
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 1
-		max_level = 10
+		max_level = 5
 		value = 1
 		infrastructure_construction_effect = yes
 	}
@@ -113,14 +113,14 @@ buildings = {
 	coastal_bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 1200
+		per_level_extra_cost = 900
 		provincial = yes
 		disabled_in_dmz = yes
 		only_costal = yes
 		icon_frame = 8
 		naval_fort = 1
-		max_level = 10
+		max_level = 3
 		value = 1
 		infrastructure_construction_effect = yes
 	}

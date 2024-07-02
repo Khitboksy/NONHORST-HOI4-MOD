@@ -258,7 +258,7 @@
  CHL_political_events.14.a: "Prepare to fight even your closest friends!"
 
  CHL_political_events.15.t: "The Seguro Obrero Battle"
- CHL_political_events.15.desc: "The National Socialist Movement of Chile has attempted a coup d'etat, but to no avail. Our Carabineros have put down their insurrection, however taking heavy casualties during what became a large-scale battle for the ground of the University of Chile, after the Nacistas had occupied it. They have retreated for now, but it is not sure if they will attempt something like this again later down the line."
+ CHL_political_events.15.desc: "The National Socialist Movement of Chile has attempted a coup d'etat, but to no avail. Our Carabineros have put down their insurrection, however taking heavy casualties during what became a large-scale battle for the ground of the University of Chile, after the Nacistas had occupied it. They have ed for now, but it is not sure if they will attempt something like this again later down the line."
  CHL_political_events.15.a: "That was way too close..."
  nacista_coup_attempt_happened: "The Nacista Coup Attempt has Already Occurred"
 
@@ -472,7 +472,7 @@
  CHL_political_events.58.b: "Hold your ground men!"
 
  CHL_political_events.59.t: "[FROM.GetName] withdraws from [954.GetName]"
- CHL_political_events.59.desc: "The cowardly [ARG.GetAdjective] troops have retreated after provocations by our border guards, and our soldiers have begun entering the close to abandoned province of Santa Cruz. We are experiencing victories on every front, and need to pray that it does not all come crashing down in the near future."
+ CHL_political_events.59.desc: "The cowardly [ARG.GetAdjective] troops have ed after provocations by our border guards, and our soldiers have begun entering the close to abandoned province of Santa Cruz. We are experiencing victories on every front, and need to pray that it does not all come crashing down in the near future."
  CHL_political_events.59.a: "We are a step closer to our ultimate goal"
 
  CHL_political_events.60.t: "[FROM.GetName] holds their ground"

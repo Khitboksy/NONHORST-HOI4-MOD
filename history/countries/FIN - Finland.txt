@@ -50,7 +50,7 @@ set_variable = { FIN_finnish_navy_experience_gain_navy_factor = 0.05 }
 set_variable = { FIN_finnish_navy_mines_planting_by_fleets_factor = 0.05 }
 set_variable = { FIN_finnish_navy_navy_anti_air_attack_factor = 0.05 }
 set_variable = { FIN_finnish_navy_navy_spirit_category_type_cost_factor = -0.1 }
-set_variable = { FIN_finnish_navy_convoy_retreat_speed = 0 }
+set_variable = { FIN_finnish_navy_convoy__speed = 0 }
 set_variable = { FIN_finnish_navy_refit_speed = 0 }
 set_variable = { FIN_finnish_navy_spotting_chance = 0 }
 set_variable = { FIN_finnish_navy_repair_speed_factor = 0 }

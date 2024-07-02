@@ -1,9 +1,10 @@
-version="0.1.8.3"
+version="v0.1.9"
 tags={
 	"Balance"
 	"Fixes"
-	"Gameplay"
+	"Technologies"
+	"Utilities"
 }
-name="NONHORST BETA BRANCH"
-supported_version="1.14.6"
-remote_file_id="3195716296"
+name="NONHORST BETA"
+supported_version="1.14.7"
+remote_file_id="3277717883"
