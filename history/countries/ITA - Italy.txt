@@ -25,7 +25,7 @@ add_ideas = {
 	vittoria_mutilata
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 }
 
 # RESISTANCE / COMPLIANCE

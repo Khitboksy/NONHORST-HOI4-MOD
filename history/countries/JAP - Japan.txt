@@ -11,7 +11,7 @@ add_ideas = {
 	state_shintoism
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
