@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	resources={
-		steel=42 #was 100 # was: 236
+		steel=61 # was 42
 	}
 
 	history={
@@ -48,7 +48,7 @@ state={
 
 			}
 			anti_air_building = 5
-			air_base = 5
+			air_base = 10  # divide by 2
 
 		}
 		add_core_of = FRA

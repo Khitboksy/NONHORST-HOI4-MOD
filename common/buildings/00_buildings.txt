@@ -6,14 +6,14 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 7200
+		base_cost = 5000
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 5
 		value = 1
 
 		show_modifier = yes
-		max_fuel_building = 1.5 #k
+		max_fuel_building = 5.0 #k
 		allied_build = yes
 
 		infrastructure_construction_effect = no
@@ -45,14 +45,14 @@ buildings = {
 
 	air_base = {
 		show_on_map = 1
-		base_cost = 1250
+		base_cost = 600
 		icon_frame = 5
 		air_base = yes
-		max_level = 10
+		max_level = 20
 		value = 1
 		damage_factor = 0.5
 		allied_build = yes
-		infrastructure_construction_effect = yes
+		infrastructure_construction_effect = no
 	}
 
 	supply_node = {
@@ -155,7 +155,7 @@ buildings = {
 
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 10000
+		base_cost = 12500
 		icon_frame = 10
 		local_resources_oil = 1 # May use local_resources_ + any resource name
 		local_resources_rubber = 1 # May use local_resources_ + any resource name
@@ -166,14 +166,14 @@ buildings = {
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 3.0 #per hour
+		fuel_gain_from_states = 3.5 #per hour
 	}
 
 	fuel_silo = {
 		show_on_map = 1
-		base_cost = 3750
+		base_cost = 3500
 		icon_frame = 14
-		#max_level = 1
+		max_level = 3
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
@@ -199,7 +199,7 @@ buildings = {
 
 	rocket_site = {
 		show_on_map = 1
-		base_cost = 6400
+		base_cost = 4750
 		icon_frame = 12
 		rocket_production = 5
 		rocket_launch_capacity = 1
