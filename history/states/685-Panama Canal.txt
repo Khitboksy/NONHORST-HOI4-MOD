@@ -12,7 +12,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			air_base = 6
+			air_base = 12 # divide by 2
 			7617 = {
 				naval_base = 3
 			}

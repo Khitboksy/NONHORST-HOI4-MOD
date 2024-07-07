@@ -13,7 +13,7 @@ state={
 		owner = NZL
 		buildings = {
 			infrastructure = 3 #was: 5
-			air_base = 1
+			air_base = 2 # divide by 2
 			2197 = {
 				naval_base = 1
 			}

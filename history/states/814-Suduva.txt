@@ -12,7 +12,7 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 4
+			air_base = 8 # divide by 2
 
 		}
 		add_core_of = LIT

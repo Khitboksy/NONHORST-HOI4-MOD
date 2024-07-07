@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3
-			air_base = 4
+			air_base = 8 # divide by 2
 		}
 		add_core_of = USA
 		victory_points = {

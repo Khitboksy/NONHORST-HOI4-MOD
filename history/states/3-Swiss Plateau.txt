@@ -17,7 +17,7 @@ state={
 			infrastructure = 4
 			arms_factory = 3
 			industrial_complex = 3
-			air_base = 4
+			air_base = 8 # divide by 2
 		}
 		add_core_of = SWI
 	}

@@ -14,7 +14,7 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 2
-			air_base = 1
+			air_base = 2 # divide by 2
 			synthetic_refinery = 1 #NSB
 		}
 		add_core_of = SOV

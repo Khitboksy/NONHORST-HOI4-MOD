@@ -28,7 +28,7 @@ state={
 			}
 			buildings = {
 				infrastructure = 3 #was: 6
-				air_base = 1
+				air_base = 2 # divide by 2
 			}
 
 		}

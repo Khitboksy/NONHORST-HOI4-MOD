@@ -31,10 +31,10 @@ NDefines.NMilitary.NAVAL_EQUIPMENT_BASE_COST = 0
 NDefines.NMilitary.NAVAL_EQUIPMENT_RAMP_COST = 0
 NDefines.NMilitary.AIR_EQUIPMENT_BASE_COST = 0
 NDefines.NMilitary.AIR_EQUIPMENT_RAMP_COST = 0
-CORPS_COMMANDER_DIVISIONS_CAP = 24		                        -- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
-MAX_DIVISION_SUPPORT_WIDTH = 1		                            -- Max width of support in division designer.
-MAX_DIVISION_SUPPORT_HEIGHT = 5		                            -- Max height of support in division designer.
-
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 30		        -- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2		            -- Max width of support in division designer.
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 4	                -- Max height of support in division designer.
+NDefines.NMilitary.BASE_FORT_PENALTY = -0.19 					    -- fort penalty
 
 -- Country
 
@@ -49,6 +49,11 @@ NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 800				-- {1100}
 NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 250 			-- {550}
 NDefines_Graphics.NGraphics.MAP_BUILDINGS_SHRINK_DISTANCE = 100		-- {180}
 
+
+-- Railway Guns
+
+NDefines.NRailwayGun.RAILWAY_GUN_RANGE = 42						    -- The range of railway guns in pixels
+NDefines.NRailwayGun.ATTACK_TO_FORTS_MODIFIER_FACTOR = 1.233		-- Forts modifier is calculated by multiplying railway gun attack value with this and dividing by 100
 
 -- Military Industrial Organizations
 

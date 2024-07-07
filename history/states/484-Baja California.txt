@@ -8,7 +8,7 @@ state = {
 		owner = MEX
 		buildings = {
 			infrastructure = 2
-			air_base = 3
+			air_base = 6 # divide by 2
 			1892 = {
 				naval_base = 2
 			}

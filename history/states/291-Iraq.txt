@@ -28,7 +28,7 @@ state={
 			infrastructure = 3 #was: 5
 			arms_factory = 1
 			industrial_complex = 2 
-			air_base = 4
+			air_base = 8 # divide by 2
 			2089 = {
 				naval_base = 1
 			}

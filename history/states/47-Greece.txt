@@ -39,7 +39,7 @@ state={
 			infrastructure = 2
 			industrial_complex = 3
 			dockyard = 1
-			air_base = 4
+			air_base = 8 # divide by 2
 			4109 = {
 				naval_base = 9
 
